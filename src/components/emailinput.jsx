@@ -8,7 +8,7 @@ export default function EmailInput(props) {
         const value = inputElement.current.value;
 
         if (!value.includes('@')) {
-            setError(' enter a valid email address');
+            setError('Please enter a valid email address');
         } else {
             setError('');
         }
