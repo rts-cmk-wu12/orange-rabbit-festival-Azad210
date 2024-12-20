@@ -67,7 +67,7 @@ export default function Index() {
             <PhoneInput name='phone' className='profileInfo'/>
             <p>Your birthdate</p>
             <BirthInput name='birth' className='profileInfo'/>
-            <button className="signup-form-button" type="date">Add participant <FaPlus /></button>     
+            <button className="signup-form-button"  type="date">Add participant <FaPlus /></button>     
           </form>
         </div>
         <div className='checkout'>
